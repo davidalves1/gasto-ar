@@ -1,0 +1,28 @@
+{
+  "name": "gasto-ar",
+  "version": "1.0.0",
+  "description": "Descubra qual a média de gasto mensal do seu ar condicionado",
+  "repository": "https://github.com/davidalves1/gasto-ar",
+  "main": "index.js",
+  "bin": {
+    "tempo": "./bin/index.js"
+  },
+  "preferGlobal": "true",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ar",
+    "tools",
+    "calor",
+    "Brasil"
+  ],
+  "author": "David Alves de Souza <alves.david@outlook.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidalves1/clima-app/issues"
+  },
+  "dependencies": {
+    "meow": "^3.7.0"
+  }
+}
