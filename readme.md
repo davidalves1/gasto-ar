@@ -1,6 +1,6 @@
-# Clima-App
+# Gasto-Ar
 
-Descubra qual a média de gasto mensal do seu ar condicionado
+Descubra qual a média de gasto mensal do seu ar condicionado :sunny:
 
 ## Instalação
 
@@ -12,6 +12,8 @@ $ npm install -g gasto-ar
 
 ```shell
 $ gasto-ar <potencia-ar-condicionado> <horas-de-uso-diario>
+
+// Exemplo
 $ gasto-ar 680 8
 ```
 
