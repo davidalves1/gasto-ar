@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gasto com Ar-condicionado</title>
+    <link rel="stylesheet" href="node_modules/sweetalert2/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="dist/css/style.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <hgroup>
+                <h1>Gasto com Ar-condicionado</h1>
+            </hgroup>
+        </header>
+        <section class="content">
+            <div>
+                <label for="potencia" class="input-label">Potência (w)</label>
+                <br>
+                <input type="text" id="potencia" class="input-text" placeholder="Ex: 680">
+            </div>
+            <div class="mtop-2">
+                <label for="horas" class="input-label">Horas de uso</label>
+                <br>
+                <input type="text" id="horas" class="input-text" placeholder="Ex: 8">
+            </div>
+
+            <button id="btnCalcular" class="mtop-2">Calcular</button>
+
+            <div id="result" class="mtop-2"></div>
+        </section> 
+        <footer>
+            MIT @ David Alves de Souza
+        </footer>
+    <script src="node_modules/sweetalert2/dist/sweetalert2.min.js"></script>
+    <script src="dist/js/app.min.js"></script>
+    </div>
+</body>
+</html>

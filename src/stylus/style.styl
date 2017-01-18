@@ -1,0 +1,79 @@
+@charset "UTF-8"
+@import "https://fonts.googleapis.com/css?family=Lato:300,400"
+
+:root
+html
+    margin 0
+    padding 0
+    line-height 1.6em
+
+body
+	font-family 'Lato', Tahoma, Arial, sans-serif
+	font-size 100%
+	background-color alpha(#EEE, .3)
+	
+header
+	padding 1em 0
+    margin 0px
+    float left
+    width 100%
+    
+	hgroup
+		width 100%
+		font-weight normal
+		text-align center
+
+	a
+		text-decoration none
+		
+.wrapper
+	font-size 0.8em /* 13px from 100% global font-size */
+	max-width 960px /* standard 1024px wide */
+	margin 0 auto
+	
+	.content
+		margin 2em
+		text-align center
+        display table-cell
+        vertical-align middle
+        
+        label
+        	font-size 1.5em
+        
+    .input-text
+        border 1px solid #BABABA
+        border-radius 5px
+        font-size 1.2em
+        height 2.5em
+        min-width 20em
+        text-align center
+        
+    button
+        background-color #CC2211
+        border 0 solid
+        border-radius 5px
+        color #FFFFFF
+        font-weight bold
+        height 35px
+        margin-top 20px
+        width 60px
+	    
+    button:hover
+        background-color #AA1100
+        transition 0.3s
+	
+	footer
+	    float left
+	    margin-top 2em
+	    padding 1%
+	    width 98%
+		text-align center
+			
+	.mtop-2
+		margin-top 2em
+	
+@media only screen and (max-width:480px)
+	.input-text
+		font-size 1em !important
+		max-width 100%
+		height 2em
