@@ -21,7 +21,5 @@
     "gulp-util": "^3.0.7",
     "gulp-watch": "^4.3.5"
   },
-  "dependencies": {
-    "sweetalert2": "^6.3.2"
-  }
+  "dependencies": {}
 }

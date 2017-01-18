@@ -7,15 +7,15 @@ btnCalcular.addEventListener('click', () => {
 	let horas = document.querySelector('#horas').value;
 
 	if (potencia === '' ||  horas === '') {
-		swal('Ops...', 'Informe a potência do seu ar-codicionado e as horas de uso corretamente', 'error');
+		document.querySelector('#result').innerHTML = 'Informe a potência do seu ar-codicionado e as horas de uso corretamente';
 		return;
 	}
 
 	potencia = parseInt(potencia);
 	horas = parseInt(horas);
 
-	if (horas === 0 || horas > 24) {
-		swal('Ops...', 'Informe as horas de uso corretamente', 'error');
+	if (horas === 0 || horas > 24 || horas === 'NaN') {
+		document.querySelector('#result').innerHTML = 'Informe as horas de uso corretamente';
 		return;
 	}
 
