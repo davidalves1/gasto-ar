@@ -3,7 +3,7 @@
 
 :sunny: Descubra qual a média de gasto mensal do seu ar condicionado
 
-***[DEMO](https://davidalves1.github.io/gasto-ar/)***
+***[CALCULAR ONLINE](https://davidalves1.github.io/gasto-ar/)***
 
 ## Instalação
 
