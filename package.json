@@ -1,6 +1,6 @@
 {
   "name": "gasto-ar",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Descubra qual a média de gasto mensal do seu ar condicionado",
   "repository": "https://github.com/davidalves1/gasto-ar",
   "main": "index.js",

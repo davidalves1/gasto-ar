@@ -3,6 +3,9 @@
 'use strict';
 
 const meow = require('meow');
+const EFICIENCIA_AR_CONDICIONADO = 0.7;
+const DIAS_MES = 30;
+const VALOR_MEDIO_QUILOWATT = 0.45;
 
 const cli = meow(`
     Modo de uso:
@@ -35,6 +38,6 @@ if (horas === 0 || horas > 24) {
 potencia = potencia / 1000;
 
 // Fórmula: potência * horas de uso * capacidade de rendimento médio * dias do mês * preço médio do quilowatt
-let resultado = potencia * horas * 0.7 * 30 * 0.45;
+let resultado = potencia * horas * EFICIENCIA_AR_CONDICIONADO * DIAS_MES * VALOR_MEDIO_QUILOWATT;
 
 console.log(`O gasto médio do seu ar-codicionado é de aproximadamente R$ ${resultado.toFixed(2).replace('.',',')} mensais.`);

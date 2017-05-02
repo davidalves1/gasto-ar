@@ -1,6 +1,9 @@
 # Gasto-Ar
+[![https://nodei.co/npm/gasto-ar.png?downloads=true&downloadRank=true&stars=true](https://nodei.co/npm/gasto-ar.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gasto-ar)
 
-Descubra qual a média de gasto mensal do seu ar condicionado :sunny:
+:sunny: Descubra qual a média de gasto mensal do seu ar condicionado
+
+***[CALCULAR ONLINE](https://davidalves1.github.io/gasto-ar/)***
 
 ## Instalação
 
