@@ -5,7 +5,7 @@
 const meow = require('meow');
 const EFICIENCIA_AR_CONDICIONADO = 0.7;
 const DIAS_MES = 30;
-const VALOR_MEDIO_QUILOWATT = 0.45;
+const VALOR_MEDIO_QUILOWATT = 0.85;
 
 const cli = meow(`
     Modo de uso:
